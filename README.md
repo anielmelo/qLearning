@@ -49,6 +49,7 @@ Testar como a combinação das recompensas positivas e negativas afetam o desemp
 
 3. **Labirinto com nova funcionalidade (remove obstáculos no raio de um quadrado)**
 	![labirinto-nova-funcionalidade](./assets/labirinto_nova_funcionalidade.png)
+	
 	> O treinamento foi mais eficiente, pois o agente conseguiu encontrar a saída do labirinto mais rapidamente.
 
 ---
