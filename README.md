@@ -1,15 +1,15 @@
 # qLearning
 
-## **Este projeto explora o algoritmo Q-Learning aplicado à nevagação de um agente em um labirinto.**
+**Este projeto explora o algoritmo Q-Learning aplicado à nevagação de um agente em um labirinto.**
 
-### Tecnologia utilizda:
+### Tecnologia utilizada:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ### Objetivo:
 
 Testar como a combinação das recompensas positivas e negativas afetam o desempenho e a velocidade do aprendizado do agente. Para isso eu devo:
 
-- Implementar uma funcionalidade que altere o suposto comportamento padrão do agente no labirinto.
+- Implementar uma funcionalidade que altere o comportamento padrão do agente no labirinto.
 
 ---
 
@@ -31,17 +31,25 @@ Testar como a combinação das recompensas positivas e negativas afetam o desemp
 
 ---
 
+### Nova funcionalidade
+
+- Bloco que explode os obstáculos num raio de 1 quadrado.
+
+---
+
 ### Experimentos realizados:
 
-1. Labirinto simples (com obstáculos)
+1. **Labirinto simples (com obstáculos)**
 	![labirinto-base](./assets/labirinto_base.png)
-	- O agente foi treinado e conseguiu sair do labirinto dentro do escopo (300).
-2. Labirinto com nova funcionalidade (remove todos os obstáculos)
+	> O agente foi treinado e conseguiu sair do labirinto dentro do escopo (300).
+
+2. **Labirinto com nova funcionalidade (remove todos os obstáculos)**
 	![agente-preso](./assets/agente_preso.png)
-	- O agente **não** conseguiu sair do labirinto dentro do escopo (300).
-3. Labirinto com nova funcionalidade (remove obstáculos no raio de um quadrado)
+	> O agente **não** conseguiu sair do labirinto dentro do escopo (300).
+
+3. **Labirinto com nova funcionalidade (remove obstáculos no raio de um quadrado)**
 	![labirinto-nova-funcionalidade](./assets/labirinto_nova_funcionalidade.png)
-	- O treinamento foi mais eficiente, pois o agente conseguiu encontrar a saída do labirinto mais rapidamente.
+	> O treinamento foi mais eficiente, pois o agente conseguiu encontrar a saída do labirinto mais rapidamente.
 
 ---
 
